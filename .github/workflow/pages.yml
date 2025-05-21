@@ -30,7 +30,10 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+          # 关键修复：禁用 Jekyll 处理
+          touch ./public/.nojekyll
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
