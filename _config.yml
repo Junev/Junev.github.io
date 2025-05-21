@@ -95,6 +95,10 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+# 如果主题需要以 gem 形式加载，可能需要同时配置 plugins
+plugins:
+  - jekyll-theme-butterfly
+  
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
