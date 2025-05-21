@@ -55,7 +55,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: https://avatars.githubusercontent.com/u/41331568?s=400&u=8462ed26b6034aaae8c723ae274b6e1cb6de31ce&v=4
   effect: false
 
 # Disable all banner images
