@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - master # default branch
-    with:
-      submodules: true
 
 jobs:
   build:
